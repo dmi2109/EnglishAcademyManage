@@ -16,7 +16,7 @@ namespace EnglishAcademyManage_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEnglishAcademyManage());
+            Application.Run(new Login());
         }
     }
 }
