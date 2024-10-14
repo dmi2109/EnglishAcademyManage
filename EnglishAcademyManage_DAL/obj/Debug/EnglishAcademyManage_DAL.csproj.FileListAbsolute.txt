@@ -1,0 +1,6 @@
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\bin\Debug\EnglishAcademyManage_DAL.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\bin\Debug\EnglishAcademyManage_DAL.pdb
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\obj\Debug\EnglishAcademyManage_DAL.csproj.AssemblyReference.cache
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\obj\Debug\EnglishAcademyManage_DAL.csproj.CoreCompileInputs.cache
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\obj\Debug\EnglishAcademyManage_DAL.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_DAL\obj\Debug\EnglishAcademyManage_DAL.pdb
