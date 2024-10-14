@@ -7,3 +7,12 @@ C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcadem
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishA.77BBF36E.Up2Date
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.dll
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.csproj.AssemblyReference.cache
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.csproj.CoreCompileInputs.cache
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishA.77BBF36E.Up2Date
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.pdb

@@ -16,3 +16,22 @@ C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcadem
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.pdb
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\MaterialSkin.dll
 C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_GUI.exe.config
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_GUI.exe
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_GUI.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_BUS.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_DAL.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\MaterialSkin.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_BUS.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\bin\Debug\EnglishAcademyManage_DAL.pdb
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.csproj.AssemblyReference.cache
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.frmEnglishAcademyManage.resources
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.Login.resources
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.Properties.Resources.resources
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.csproj.GenerateResource.cache
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.csproj.CoreCompileInputs.cache
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishA.F66DAC67.Up2Date
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.exe
+C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_GUI\obj\Debug\EnglishAcademyManage_GUI.pdb
