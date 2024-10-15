@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Siticone.Desktop.UI.WinForms;
 
 
 namespace EnglishAcademyManage_GUI
@@ -41,7 +40,7 @@ namespace EnglishAcademyManage_GUI
             // Add PictureBox to display image
             PictureBox logoPictureBox = new PictureBox
             {
-                Image = Image.FromFile("C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
+                Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
                 SizeMode = PictureBoxSizeMode.Zoom, // Maintain aspect ratio
                 Size = new Size(250, 250), // Size to match the panel
                 Location = new Point(0, 0) // Position within the panel
@@ -84,8 +83,8 @@ namespace EnglishAcademyManage_GUI
             };
             this.Controls.Add(usernameTextBox);
 
-            string eyeOpenIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
-            string eyeClosedIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
+            string eyeOpenIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
+            string eyeClosedIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
 
             // Password
             SiticoneTextBox passwordTextBox = new SiticoneTextBox
@@ -243,7 +242,7 @@ namespace EnglishAcademyManage_GUI
 
 //PictureBox logoPictureBox = new PictureBox
 //{
-//    Image = Image.FromFile("C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Đường dẫn đến hình ảnh
+//    Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Đường dẫn đến hình ảnh
 //    SizeMode = PictureBoxSizeMode.Zoom, // Giữ tỉ lệ hình ảnh
 //    Size = new Size(200, 200), // Kích thước hình ảnh
 //    Location = new Point(10, 10) // Vị trí hình ảnh

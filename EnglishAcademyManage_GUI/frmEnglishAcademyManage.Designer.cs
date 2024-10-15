@@ -28,42 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEnglishAcademyManage));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconEmployee = new FontAwesome.Sharp.IconButton();
+            this.btnReceipt = new FontAwesome.Sharp.IconButton();
+            this.btnCheck = new FontAwesome.Sharp.IconButton();
             this.btnSignOut = new FontAwesome.Sharp.IconButton();
-            this.btnEmployee = new FontAwesome.Sharp.IconButton();
+            this.btnClass = new FontAwesome.Sharp.IconButton();
             this.btnTeacher = new FontAwesome.Sharp.IconButton();
             this.btnCourse = new FontAwesome.Sharp.IconButton();
             this.btnSchedule = new FontAwesome.Sharp.IconButton();
             this.btnStudent = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
-            this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.picLogo = new System.Windows.Forms.PictureBox();
+            this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnMinimize = new FontAwesome.Sharp.IconButton();
             this.btnMaximize = new FontAwesome.Sharp.IconButton();
             this.btnExit = new FontAwesome.Sharp.IconButton();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.panelTitleBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.Lavender;
+            this.panelMenu.BackColor = System.Drawing.Color.AliceBlue;
+            this.panelMenu.Controls.Add(this.iconEmployee);
+            this.panelMenu.Controls.Add(this.btnReceipt);
+            this.panelMenu.Controls.Add(this.btnCheck);
             this.panelMenu.Controls.Add(this.btnSignOut);
-            this.panelMenu.Controls.Add(this.btnEmployee);
+            this.panelMenu.Controls.Add(this.btnClass);
             this.panelMenu.Controls.Add(this.btnTeacher);
             this.panelMenu.Controls.Add(this.btnCourse);
             this.panelMenu.Controls.Add(this.btnSchedule);
             this.panelMenu.Controls.Add(this.btnStudent);
             this.panelMenu.Controls.Add(this.btnHome);
-            this.panelMenu.Controls.Add(this.btnMenu);
             this.panelMenu.Controls.Add(this.panel1);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(238, 697);
-            this.panelMenu.TabIndex = 2;
+            this.panelMenu.Size = new System.Drawing.Size(230, 697);
+            this.panelMenu.TabIndex = 1;
+            // 
+            // iconEmployee
+            // 
+            this.iconEmployee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconEmployee.FlatAppearance.BorderSize = 0;
+            this.iconEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconEmployee.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconEmployee.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.iconEmployee.IconColor = System.Drawing.Color.Black;
+            this.iconEmployee.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconEmployee.IconSize = 30;
+            this.iconEmployee.Location = new System.Drawing.Point(0, 562);
+            this.iconEmployee.Name = "iconEmployee";
+            this.iconEmployee.Size = new System.Drawing.Size(230, 60);
+            this.iconEmployee.TabIndex = 10;
+            this.iconEmployee.Tag = "  Nhân viên";
+            this.iconEmployee.Text = "  Nhân viên";
+            this.iconEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconEmployee.UseVisualStyleBackColor = true;
+            this.iconEmployee.Click += new System.EventHandler(this.iconEmployee_Click);
+            // 
+            // btnReceipt
+            // 
+            this.btnReceipt.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReceipt.FlatAppearance.BorderSize = 0;
+            this.btnReceipt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReceipt.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReceipt.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
+            this.btnReceipt.IconColor = System.Drawing.Color.Black;
+            this.btnReceipt.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnReceipt.IconSize = 30;
+            this.btnReceipt.Location = new System.Drawing.Point(0, 502);
+            this.btnReceipt.Name = "btnReceipt";
+            this.btnReceipt.Size = new System.Drawing.Size(230, 60);
+            this.btnReceipt.TabIndex = 9;
+            this.btnReceipt.Tag = "  Học phí     ";
+            this.btnReceipt.Text = "  Học phí     ";
+            this.btnReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReceipt.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnReceipt.UseVisualStyleBackColor = true;
+            this.btnReceipt.Click += new System.EventHandler(this.btnReceipt_Click);
+            // 
+            // btnCheck
+            // 
+            this.btnCheck.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCheck.FlatAppearance.BorderSize = 0;
+            this.btnCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheck.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheck.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
+            this.btnCheck.IconColor = System.Drawing.Color.Black;
+            this.btnCheck.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCheck.IconSize = 30;
+            this.btnCheck.Location = new System.Drawing.Point(0, 442);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(230, 60);
+            this.btnCheck.TabIndex = 8;
+            this.btnCheck.Tag = "  Điểm danh";
+            this.btnCheck.Text = "  Điểm danh";
+            this.btnCheck.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCheck.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // btnSignOut
             // 
@@ -77,34 +149,34 @@
             this.btnSignOut.IconSize = 30;
             this.btnSignOut.Location = new System.Drawing.Point(0, 637);
             this.btnSignOut.Name = "btnSignOut";
-            this.btnSignOut.Size = new System.Drawing.Size(238, 60);
-            this.btnSignOut.TabIndex = 15;
+            this.btnSignOut.Size = new System.Drawing.Size(230, 60);
+            this.btnSignOut.TabIndex = 7;
             this.btnSignOut.Tag = "  Đăng xuất";
             this.btnSignOut.Text = "  Đăng xuất";
             this.btnSignOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignOut.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSignOut.UseVisualStyleBackColor = true;
             // 
-            // btnEmployee
+            // btnClass
             // 
-            this.btnEmployee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEmployee.FlatAppearance.BorderSize = 0;
-            this.btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmployee.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmployee.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.btnEmployee.IconColor = System.Drawing.Color.Black;
-            this.btnEmployee.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEmployee.IconSize = 30;
-            this.btnEmployee.Location = new System.Drawing.Point(0, 382);
-            this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(238, 60);
-            this.btnEmployee.TabIndex = 14;
-            this.btnEmployee.Tag = "  Nhân viên";
-            this.btnEmployee.Text = "  Nhân viên";
-            this.btnEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEmployee.UseVisualStyleBackColor = true;
-            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnClass.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClass.FlatAppearance.BorderSize = 0;
+            this.btnClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClass.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClass.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.btnClass.IconColor = System.Drawing.Color.Black;
+            this.btnClass.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnClass.IconSize = 30;
+            this.btnClass.Location = new System.Drawing.Point(0, 382);
+            this.btnClass.Name = "btnClass";
+            this.btnClass.Size = new System.Drawing.Size(230, 60);
+            this.btnClass.TabIndex = 6;
+            this.btnClass.Tag = "  Lớp học   ";
+            this.btnClass.Text = "  Lớp học   ";
+            this.btnClass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClass.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnClass.UseVisualStyleBackColor = true;
+            this.btnClass.Click += new System.EventHandler(this.btnClass_Click);
             // 
             // btnTeacher
             // 
@@ -118,8 +190,8 @@
             this.btnTeacher.IconSize = 30;
             this.btnTeacher.Location = new System.Drawing.Point(0, 322);
             this.btnTeacher.Name = "btnTeacher";
-            this.btnTeacher.Size = new System.Drawing.Size(238, 60);
-            this.btnTeacher.TabIndex = 13;
+            this.btnTeacher.Size = new System.Drawing.Size(230, 60);
+            this.btnTeacher.TabIndex = 5;
             this.btnTeacher.Tag = "  Giáo viên";
             this.btnTeacher.Text = "  Giáo viên";
             this.btnTeacher.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -139,8 +211,8 @@
             this.btnCourse.IconSize = 30;
             this.btnCourse.Location = new System.Drawing.Point(0, 262);
             this.btnCourse.Name = "btnCourse";
-            this.btnCourse.Size = new System.Drawing.Size(238, 60);
-            this.btnCourse.TabIndex = 12;
+            this.btnCourse.Size = new System.Drawing.Size(230, 60);
+            this.btnCourse.TabIndex = 4;
             this.btnCourse.Tag = "  Khóa học";
             this.btnCourse.Text = "  Khóa học";
             this.btnCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,8 +233,8 @@
             this.btnSchedule.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSchedule.Location = new System.Drawing.Point(0, 202);
             this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(238, 60);
-            this.btnSchedule.TabIndex = 11;
+            this.btnSchedule.Size = new System.Drawing.Size(230, 60);
+            this.btnSchedule.TabIndex = 3;
             this.btnSchedule.Tag = "  Thời khóa biểu";
             this.btnSchedule.Text = "  Thời khóa biểu";
             this.btnSchedule.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,8 +254,8 @@
             this.btnStudent.IconSize = 30;
             this.btnStudent.Location = new System.Drawing.Point(0, 142);
             this.btnStudent.Name = "btnStudent";
-            this.btnStudent.Size = new System.Drawing.Size(238, 60);
-            this.btnStudent.TabIndex = 10;
+            this.btnStudent.Size = new System.Drawing.Size(230, 60);
+            this.btnStudent.TabIndex = 2;
             this.btnStudent.Tag = "  Học viên";
             this.btnStudent.Text = "  Học viên";
             this.btnStudent.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -203,14 +275,34 @@
             this.btnHome.IconSize = 30;
             this.btnHome.Location = new System.Drawing.Point(0, 82);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(238, 60);
-            this.btnHome.TabIndex = 9;
+            this.btnHome.Size = new System.Drawing.Size(230, 60);
+            this.btnHome.TabIndex = 1;
             this.btnHome.Tag = "  Trang chủ";
             this.btnHome.Text = "  Trang chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.picLogo);
+            this.panel1.Controls.Add(this.btnMenu);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(230, 82);
+            this.panel1.TabIndex = 0;
+            // 
+            // picLogo
+            // 
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
+            this.picLogo.Location = new System.Drawing.Point(0, 0);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(181, 82);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 1;
+            this.picLogo.TabStop = false;
             // 
             // btnMenu
             // 
@@ -220,92 +312,81 @@
             this.btnMenu.IconColor = System.Drawing.Color.Black;
             this.btnMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMenu.IconSize = 30;
-            this.btnMenu.Location = new System.Drawing.Point(178, 0);
+            this.btnMenu.Location = new System.Drawing.Point(179, 0);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(60, 60);
-            this.btnMenu.TabIndex = 8;
+            this.btnMenu.Size = new System.Drawing.Size(51, 42);
+            this.btnMenu.TabIndex = 0;
             this.btnMenu.UseVisualStyleBackColor = true;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(238, 82);
-            this.panel1.TabIndex = 0;
             // 
             // panelTitleBar
             // 
+            this.panelTitleBar.BackColor = System.Drawing.Color.Lavender;
             this.panelTitleBar.Controls.Add(this.btnMinimize);
             this.panelTitleBar.Controls.Add(this.btnMaximize);
             this.panelTitleBar.Controls.Add(this.btnExit);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(238, 0);
+            this.panelTitleBar.Location = new System.Drawing.Point(230, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(849, 60);
-            this.panelTitleBar.TabIndex = 3;
-            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            this.panelTitleBar.Size = new System.Drawing.Size(857, 60);
+            this.panelTitleBar.TabIndex = 2;
             // 
             // btnMinimize
             // 
             this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.Color.Brown;
+            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.IconChar = FontAwesome.Sharp.IconChar.Minus;
             this.btnMinimize.IconColor = System.Drawing.Color.Black;
             this.btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMinimize.IconSize = 25;
-            this.btnMinimize.Location = new System.Drawing.Point(714, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(722, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(45, 27);
-            this.btnMinimize.TabIndex = 6;
+            this.btnMinimize.TabIndex = 3;
             this.btnMinimize.UseVisualStyleBackColor = false;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnMaximize
             // 
             this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximize.BackColor = System.Drawing.Color.Gold;
+            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximize.IconChar = FontAwesome.Sharp.IconChar.ExternalLinkAlt;
             this.btnMaximize.IconColor = System.Drawing.Color.Black;
             this.btnMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMaximize.IconSize = 25;
-            this.btnMaximize.Location = new System.Drawing.Point(759, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(767, 0);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(45, 27);
-            this.btnMaximize.TabIndex = 5;
+            this.btnMaximize.TabIndex = 2;
             this.btnMaximize.UseVisualStyleBackColor = false;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.IconChar = FontAwesome.Sharp.IconChar.X;
             this.btnExit.IconColor = System.Drawing.Color.Black;
             this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExit.IconSize = 23;
-            this.btnExit.Location = new System.Drawing.Point(804, 0);
+            this.btnExit.Location = new System.Drawing.Point(812, 0);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(45, 27);
-            this.btnExit.TabIndex = 4;
+            this.btnExit.TabIndex = 1;
             this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BackColor = System.Drawing.Color.Lavender;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(238, 60);
+            this.panelDesktop.Location = new System.Drawing.Point(230, 60);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.panelDesktop.Size = new System.Drawing.Size(849, 637);
-            this.panelDesktop.TabIndex = 4;
+            this.panelDesktop.Size = new System.Drawing.Size(857, 637);
+            this.panelDesktop.TabIndex = 3;
             // 
             // frmEnglishAcademyManage
             // 
@@ -319,6 +400,8 @@
             this.Text = "Form1";
             this.Resize += new System.EventHandler(this.frmEnglishAcademyManage_Resize);
             this.panelMenu.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -327,15 +410,19 @@
         #endregion
 
         private System.Windows.Forms.Panel panelMenu;
+        private FontAwesome.Sharp.IconButton iconEmployee;
+        private FontAwesome.Sharp.IconButton btnReceipt;
+        private FontAwesome.Sharp.IconButton btnCheck;
         private FontAwesome.Sharp.IconButton btnSignOut;
-        private FontAwesome.Sharp.IconButton btnEmployee;
+        private FontAwesome.Sharp.IconButton btnClass;
         private FontAwesome.Sharp.IconButton btnTeacher;
         private FontAwesome.Sharp.IconButton btnCourse;
         private FontAwesome.Sharp.IconButton btnSchedule;
         private FontAwesome.Sharp.IconButton btnStudent;
         private FontAwesome.Sharp.IconButton btnHome;
-        private FontAwesome.Sharp.IconButton btnMenu;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox picLogo;
+        private FontAwesome.Sharp.IconButton btnMenu;
         private System.Windows.Forms.Panel panelTitleBar;
         private FontAwesome.Sharp.IconButton btnMinimize;
         private FontAwesome.Sharp.IconButton btnMaximize;
