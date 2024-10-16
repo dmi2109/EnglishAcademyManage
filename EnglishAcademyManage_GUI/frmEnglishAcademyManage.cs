@@ -18,7 +18,7 @@ namespace EnglishAcademyManage_GUI
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
-        public frmEnglishAcademyManage()
+        public frmEnglishAcademyManage(string role)
         {
             InitializeComponent();
             CollapseMeunu();
@@ -30,6 +30,7 @@ namespace EnglishAcademyManage_GUI
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            CustomizeUIBasedOnRole(role);
         }
 
         //Drag Form
@@ -207,6 +208,26 @@ namespace EnglishAcademyManage_GUI
         private void iconEmployee_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
+        }
+
+        private void CustomizeUIBasedOnRole(string role)
+        {
+            if (role == "admin")
+            {
+                // Hiển thị các tính năng cho admin
+            }
+            else if (role == "employee")
+            {
+                // Hiển thị các tính năng cho employee
+            }
+            else if (role == "teacher")
+            {
+                // Hiển thị các tính năng cho teacher
+            }
+            else if (role == "student")
+            {
+                // Hiển thị các tính năng cho student
+            }
         }
     }
 }

@@ -16,3 +16,9 @@ C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcadem
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishA.77BBF36E.Up2Date
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.dll
 C:\Users\maidi\OneDrive\Desktop\Mai Diệu Mi\EnglishAcademyManage\EnglishAcademyManage_BUS\obj\Debug\EnglishAcademyManage_BUS.pdb
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_DAL.dll.config
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.xml
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EnglishAcademyManage_BUS.dll.config
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KyMinh\Desktop\EnglishAcademyManager\EnglishAcademyManage\EnglishAcademyManage_BUS\bin\Debug\EntityFramework.SqlServer.xml

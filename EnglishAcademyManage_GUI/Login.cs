@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EnglishAcademyManage_DAL.Entities; // Add this line for your DbContext
 
 
 namespace EnglishAcademyManage_GUI
@@ -40,7 +41,7 @@ namespace EnglishAcademyManage_GUI
             // Add PictureBox to display image
             PictureBox logoPictureBox = new PictureBox
             {
-                Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
+                Image = Image.FromFile("C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Path to image
                 SizeMode = PictureBoxSizeMode.Zoom, // Maintain aspect ratio
                 Size = new Size(250, 250), // Size to match the panel
                 Location = new Point(0, 0) // Position within the panel
@@ -83,8 +84,8 @@ namespace EnglishAcademyManage_GUI
             };
             this.Controls.Add(usernameTextBox);
 
-            string eyeOpenIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
-            string eyeClosedIconPath = "C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
+            string eyeOpenIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_open.png"; // Eye open icon
+            string eyeClosedIconPath = "C:\\Users\\KyMinh\\Desktop\\EnglishAcademyManager\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\eye_closed.png"; // Eye closed icon
 
             // Password
             SiticoneTextBox passwordTextBox = new SiticoneTextBox
@@ -150,23 +151,30 @@ namespace EnglishAcademyManage_GUI
             };
             loginButton.Click += (s, e) =>
             {
-                // Validate login information
-                string username = usernameTextBox.Text;
-                string password = passwordTextBox.Text;
-                string selectedRole = roleComboBox.SelectedItem.ToString();
+                string username = usernameTextBox.Text.Trim();
+                string password = passwordTextBox.Text.Trim();
+                string selectedRole = roleComboBox.SelectedItem?.ToString().Trim();
 
-                // Perform login validation
-                if (IsLoginValid(username, password, selectedRole))
+                using (var context = new EnglishAcademyDbContext())
                 {
-                    MessageBox.Show($"Login successful with role: {selectedRole}");
-                    // Open main form here
-                    // FormMain mainForm = new FormMain(selectedRole);
-                    // mainForm.Show();
-                    // this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid username or password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    var account = context.Accounts
+                        .Where(a => a.login.Equals(username, StringComparison.OrdinalIgnoreCase)
+                                    && a.password == password
+                                    && a.role.Equals(selectedRole, StringComparison.OrdinalIgnoreCase)
+                                    && a.is_active == true)
+                        .FirstOrDefault();
+
+                    if (account != null)
+                    {
+                        MessageBox.Show($"Login successful with role: {selectedRole}");
+                        frmEnglishAcademyManage mainForm = new frmEnglishAcademyManage(selectedRole);
+                        mainForm.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid username or password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             };
             this.Controls.Add(loginButton);
@@ -210,43 +218,6 @@ namespace EnglishAcademyManage_GUI
                 }
             };
             this.Controls.Add(exitButton);
-        }
-
-        // Method to validate login information
-        private bool IsLoginValid(string username, string password, string role)
-        {
-            // You can modify the login validation logic as needed
-            // Below is a simple example:
-
-            // Sample list of valid login information
-            var validUsers = new[]
-            {
-                new { Username = "admin", Password = "admin123", Role = "Administrator" },
-                new { Username = "teacher", Password = "teacher123", Role = "Teacher" },
-                new { Username = "student", Password = "student123", Role = "Student" },
-                new { Username = "employee", Password = "employee123", Role = "Employee" },
-            };
-
-            // Validate login information
-            foreach (var user in validUsers)
-            {
-                if (user.Username == username && user.Password == password && user.Role == role)
-                {
-                    return true; // Login successful
-                }
-            }
-            return false; // Login failed
-        }
+        } 
     }
 }
-
-//PictureBox logoPictureBox = new PictureBox
-//{
-//    Image = Image.FromFile("C:\\Users\\maidi\\OneDrive\\Desktop\\Mai Diệu Mi\\EnglishAcademyManage\\EnglishAcademyManage_GUI\\Images\\ISELogin.jpg"), // Đường dẫn đến hình ảnh
-//    SizeMode = PictureBoxSizeMode.Zoom, // Giữ tỉ lệ hình ảnh
-//    Size = new Size(200, 200), // Kích thước hình ảnh
-//    Location = new Point(10, 10) // Vị trí hình ảnh
-//};
-//this.Controls.Add(logoPictureBox);
-
-
